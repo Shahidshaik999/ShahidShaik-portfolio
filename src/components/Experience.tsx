@@ -6,9 +6,9 @@ const experiences = [
   {
     company: "Self-Employed",
     role: "Freelance Software Engineer",
-    start: "June 2023",
+    start: "November 2024",
     end: "Present",
-    months: 25,
+    months: 3,
     bullets: [
       "Delivered 25+ custom software solutions across AI/ML, full-stack, automation, and IoT domains for academic and independent clients",
       "Designed and developed production-ready applications tailored to client requirements and business objectives",
@@ -97,7 +97,7 @@ const Experience = () => {
                     </div>
                   </div>
                   <p className="text-muted-foreground text-sm mb-4">
-                    {exp.start} – {exp.end} · {exp.months} months
+                    {exp.start} – {exp.end}
                   </p>
                   <ul className="space-y-2">
                     {exp.bullets.map((bullet, j) => (

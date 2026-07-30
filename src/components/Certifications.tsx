@@ -4,6 +4,12 @@ import { ShieldCheck, ExternalLink } from "lucide-react";
 
 const certifications = [
   {
+    name: "Agentic AI Certified Foundations Associate",
+    org: "Oracle",
+    skills: "Core AI agent concepts, LangChain, Model Context Protocol (MCP), OpenAI Agents SDK, OCI Enterprise AI Agents, Oracle AI Database agentic capabilities",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=B99ECA6B8558F73558DD37E15DCAD06D67C79981CCC2020AD4A7B5CA22928782",
+  },
+  {
     name: "Python Programming ",
     org: "Coursera / Meta",
     skills: "Object Oriented Programming (OOP), Test Driven Development (TDD), Unit Testing, Computer Programming, Cloud Hosting, Python Programming, Software Testing, Data Structures, Django (Web Framework), Development Environment, Programming Principles, Integrated Development Environments",
