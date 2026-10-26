@@ -13,7 +13,7 @@ const achievements = [
     title: "TCS CodeVita - 13",
     position: "Global Finalist – Top 1600",
     description: "Competed among 576000+ participants worldwide in algorithmic programming challenges.",
-    link: "https://drive.google.com/file/d/1yrs5MVSbBA7p31cEHmffn1ngZqdjQOPa/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1D2sV6AX12pgYqp_dDLnvjtYk8dXNmVIg/view?usp=sharing",
   },
   {
     title: "Smart India Hackathon",
