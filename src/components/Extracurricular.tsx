@@ -7,6 +7,7 @@ const activities = [
     icon: Dumbbell,
     title: "Sports & Games",
     items: [
+      "University-level Football Player",
       "School-level Chess Competition Winner",
       "Solved 2×2, 3×3, and 4×4 Rubik’s Cube",
     ],
