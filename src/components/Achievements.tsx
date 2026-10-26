@@ -33,6 +33,12 @@ const achievements = [
     description: " Developed a Smart CSSR system using CNNs for thermal imaging, RNNs for sound detection, and methane sensorsfor victim identification. Integrated real-time processing on Raspberry Pi with GSM communication for efficient rescue operations.",
     link: "#",
   },
+  {
+    title: "micro1 Frontier Engineering Challenge 2026",
+    position: "Top 50 Worldwide",
+    description: "Ranked in the Top 50 globally out of 8,400+ participants in micro1's Frontier Engineering Challenge — a 3-day agentic AI sprint where correctness, reproducibility, and technical judgment were judged, not résumé prestige.",
+    link: "https://drive.google.com/file/d/1OKGcJeQIQMGJNTXwA0BZfXsLZ62jhc57/view?usp=sharing",
+  },
 ];
 
 const Achievements = () => {
