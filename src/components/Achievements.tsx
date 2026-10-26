@@ -4,6 +4,12 @@ import { Trophy, Award, ExternalLink } from "lucide-react";
 
 const achievements = [
   {
+    title: "Tata Steel AI Hackathon 2026 — Round 2",
+    position: "Top 10 National Finalist",
+    description: "Selected as a Top 10 Finalist out of 109 registered participants in the Tata Steel AI Hackathon 2026 Round 2: Agentic AI Challenge. Built Maintenance Wizard — a full-stack Agentic AI platform for industrial equipment maintenance using LangChain, LangGraph, Groq LLaMA-3.3-70B, FastAPI, and React — addressing a real-world problem statement from one of India's largest steel producers.",
+    link: "https://ai-hackathon-tata-round-2.vercel.app/",
+  },
+  {
     title: "TCS CodeVita - 13",
     position: "Global Finalist – Top 1600",
     description: "Competed among 576000+ participants worldwide in algorithmic programming challenges.",

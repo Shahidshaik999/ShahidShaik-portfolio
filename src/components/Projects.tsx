@@ -24,6 +24,15 @@ const projects = [
     demo: "https://voiceover-studio-z68k.onrender.com",
   },
   {
+    title: "Maintenance Wizard — Intelligent Industrial Maintenance AI System",
+    category: "AI Application",
+    stack: ["React 18", "TypeScript", "FastAPI", "LangChain", "LangGraph", "Groq API", "LLaMA-3.3-70B", "ChromaDB", "SQLAlchemy", "WebSockets", "Recharts", "Tailwind CSS"],
+    description:
+      "Top 10 Finalist — Tata Steel AI Hackathon 2026 (109 registrations, national level). Full-stack Agentic AI platform for industrial equipment maintenance in steel manufacturing. Features 5 specialized AI agents (Diagnostic, Predictive, Knowledge RAG, Chat, Report), 41 API endpoints, 10 UI pages, real-time WebSocket chat, ISO 10816 anomaly detection, RUL prediction, and plant-wide priority ranking.",
+    github: "https://github.com/Shahidshaik999/AI_hackathon_TATA_Round_2",
+    demo: "https://ai-hackathon-tata-round-2.vercel.app/",
+  },
+  {
     title: "AI Research Paper Detection — AI vs Human Text Classifier",
     category: "Machine Learning",
     stack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion", "FastAPI", "Hugging Face Transformers", "pdfplumber", "Pydantic"],
