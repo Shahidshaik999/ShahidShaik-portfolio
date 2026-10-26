@@ -15,6 +15,15 @@ const projects = [
     demo: "",
   },
   {
+    title: "VoiceOver Studio — Neural Text-to-Speech Web App",
+    category: "Web Application",
+    stack: ["Node.js", "Express", "node-edge-tts", "Vanilla JavaScript", "Microsoft Edge Neural TTS", "WebSocket", "Render"],
+    description:
+      "Turn any script into natural human voice powered by Microsoft Edge Neural TTS over WebSocket. Features 60+ neural voices including Andrew, Ava, and Brian, full Indian language support (Hindi, Telugu, Tamil, Kannada, Malayalam), speed and pitch controls, and instant MP3 download — completely free with no signup or API key required. Deployed on Render with a glassmorphism UI.",
+    github: "https://github.com/Shahidshaik999/voiceover-studio",
+    demo: "https://voiceover-studio-z68k.onrender.com",
+  },
+  {
     title: "AI Research Paper Detection — AI vs Human Text Classifier",
     category: "Machine Learning",
     stack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion", "FastAPI", "Hugging Face Transformers", "pdfplumber", "Pydantic"],
