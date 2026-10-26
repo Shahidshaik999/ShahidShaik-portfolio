@@ -6,7 +6,7 @@ const achievements = [
   {
     title: "Tata Steel AI Hackathon 2026 — Round 2",
     position: "Top 10 National Finalist",
-    description: "Competed against 1–2 lakh+ participants nationally. Cleared Round 1, qualified among 109 for Round 2, advanced to the final interview round, and finished in the Top 10 — selected by one of India's largest steel producers.",
+    description: "Competed against 1–2 lakh+ participants nationally. Cleared Round 1, qualified among 109 for Round 2, advanced to the final interview round, finished in the Top 10, and received a pre-offer from Tata Steel — awaiting onboarding.",
     link: "https://ai-hackathon-tata-round-2.vercel.app/",
   },
   {
