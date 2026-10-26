@@ -6,7 +6,7 @@ const achievements = [
   {
     title: "Tata Steel AI Hackathon 2026 — Round 2",
     position: "Top 10 National Finalist",
-    description: "Selected as a Top 10 Finalist out of 109 registered participants in the Tata Steel AI Hackathon 2026 Round 2: Agentic AI Challenge. Built Maintenance Wizard — a full-stack Agentic AI platform for industrial equipment maintenance using LangChain, LangGraph, Groq LLaMA-3.3-70B, FastAPI, and React — addressing a real-world problem statement from one of India's largest steel producers.",
+    description: "Competed against 1–2 lakh+ participants nationally. Cleared Round 1 to qualify among 109 shortlisted for Round 2: Agentic AI Challenge, then advanced to the final interview round where only a handful were selected — finishing in the Top 10. Built Maintenance Wizard, a full-stack Agentic AI platform for industrial equipment maintenance, using LangChain, LangGraph, Groq LLaMA-3.3-70B, FastAPI, and React for one of India's largest steel producers.",
     link: "https://ai-hackathon-tata-round-2.vercel.app/",
   },
   {
