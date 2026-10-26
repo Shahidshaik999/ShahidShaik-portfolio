@@ -4,11 +4,26 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
+    company: "Turing",
+    role: "Software Engineer – Python & Docker",
+    start: "September 2026",
+    end: "November 2026",
+    contract: "Part-time Contract · Remote",
+    bullets: [
+      "Developed and evaluated Python software engineering tasks for frontier AI model training and benchmarking using containerized environments, automated verification, and agentic coding workflows",
+      "Built, debugged, and validated Docker environments with Python, Linux/WSL2, shell scripting, and Git for reproducible AI engineering workflows",
+      "Designed benchmark tasks spanning Python services, REST APIs, databases, and filesystem artifacts, validated by test suites and deterministic state-based verifiers",
+      "Ran OpenCode and GLM-5.2 coding-agent workflows with MCP/connector-based tool environments; analyzed agent trajectories and investigated task-level failures",
+      "Analyzed LLM evaluation results (reward scores, trial consistency, exceptions, verifier coverage, task difficulty) and acted on automated QC findings",
+      "Debugged pipelines and task environments via logs, execution traces, verifier outputs, containers, and config files; maintained reproducible builds under version control",
+    ],
+  },
+  {
     company: "Self-Employed",
     role: "Freelance Software Engineer",
     start: "November 2024",
-    end: "Present",
-    months: 3,
+    end: "June 2026",
+    contract: "Remote",
     bullets: [
       "Delivered 25+ custom software solutions across AI/ML, full-stack, automation, and IoT domains for academic and independent clients",
       "Designed and developed production-ready applications tailored to client requirements and business objectives",
@@ -22,7 +37,7 @@ const experiences = [
     role: "Software Engineering Intern",
     start: "Nov 2025",
     end: "Jan 2026",
-    months: 4,
+    contract: "",
     bullets: [
       "Completed structured DevOps training covering CI/CD pipelines, Git workflows, and automation fundamentals",
       "Worked with Docker containers, Linux shell commands, and GitHub version control through guided exercises",
@@ -34,8 +49,8 @@ const experiences = [
     company: "cloud counselage India Pvt Ltd",
     role: "Machine Learning Intern",
     start: "June 2024",
-    end: "sep 2024",
-    months: 4,
+    end: "Sep 2024",
+    contract: "",
     bullets: [
       "Developed a Placement Prediction Model using supervised learning, preprocessing pipelines, and evaluation metrics",
       "Applied data analytics and visualization techniques on structured datasets to extract insights",
@@ -70,7 +85,7 @@ const Experience = () => {
 
           {experiences.map((exp, i) => (
             <motion.div
-              key={exp.company}
+              key={exp.company + exp.start}
               initial={{ opacity: 0, x: i % 2 === 0 ? -50 : 50 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.6, delay: i * 0.2 }}
@@ -97,7 +112,7 @@ const Experience = () => {
                     </div>
                   </div>
                   <p className="text-muted-foreground text-sm mb-4">
-                    {exp.start} – {exp.end}
+                    {exp.start} – {exp.end}{exp.contract ? ` · ${exp.contract}` : ""}
                   </p>
                   <ul className="space-y-2">
                     {exp.bullets.map((bullet, j) => (
