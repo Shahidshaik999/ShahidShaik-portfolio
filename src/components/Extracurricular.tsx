@@ -16,27 +16,30 @@ const activities = [
     icon: Users,
     title: "Technical & Leadership",
     items: [
-      "Active Participant – Smart India Hackathon (SIH)",
+      "Top 10 Finalist – Tata Steel AI Hackathon 2026 (1–2 lakh+ participants)",
+      "Smart India Hackathon Finalist",
       "IEEE Robotics Challenge Finalist",
-      "Regular Problem Solver on CodeChef and LeetCode",
+      "Purplle Tech Challenge 2026 – Round 2 Qualifier",
     ],
   },
   {
     icon: Calendar,
     title: "Technical Engagement",
     items: [
-      "Built multiple full-stack and AI/ML projects",
-      "Hands-on experience with hackathons and coding contests",
-      "Continuous learner in AI, DevOps, and System Design",
+      "Delivered 25+ production-ready AI/ML and full-stack projects as a freelancer",
+      "Contributed to frontier AI model training at Turing (Python, Docker, LLM evaluation)",
+      "Published OpenEnv AI agent environment on Hugging Face Spaces",
+      "Active problem solver on CodeChef and LeetCode",
     ],
   },
   {
     icon: Heart,
     title: "Professional Development",
     items: [
-      "Completed ML and Python certifications (IBM, Meta)",
+      "Oracle Agentic AI Certified Foundations Associate",
+      "IBM & Meta certifications in ML, Python, and Full-Stack Development",
       "DevOps training during Springer Capital internship",
-      "Strong interest in building real-world scalable systems",
+      "Continuous learner in Agentic AI, RAG, and System Design",
     ],
   },
 ];
